@@ -1,0 +1,92 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  
+}
+.modal {
+    width: 100%;
+      height: 100%;
+      display: -webkit-flexbox;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      justify-content: center;
+}
+.imageRight{
+  position: relative;
+  right: 20px;
+  top: -8px;
+ 
+}
+.imageLeft{
+  position: relative;
+  right: -15px;
+
+}
+.form{
+  padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 1px;
+    background-color: rgb(32, 107, 68);
+    width: 440px;
+    height: 275px;
+    position: relative;
+}
+.formHead {
+  color: white;
+  position: relative;
+  top: -15px;
+  font-size: 12px;
+  right: -10px;
+}
+.errorMssg{
+  color: red;
+  margin: 5px; 
+  display: none;
+}
+.displayErr{
+  color: red;
+    margin: 5px;
+    display: block;
+}
+.signInoptions {
+  position: relative;
+  top: 355px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 20px;
+  padding-left: 20px;
+  box-shadow: 1px 1px 10px grey;
+  border-radius: 1px;
+  background-color: white;
+  cursor: pointer;
+}
+/* @keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */
+
+/* .card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
